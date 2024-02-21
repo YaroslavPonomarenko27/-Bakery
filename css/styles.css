@@ -1,0 +1,224 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+.navigation {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.navigation-list {
+    list-style-type: none;
+}
+
+.navigation-list_item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Main styles */
+.hero {
+    padding: 50px 0;
+    text-align: center;
+    background-color: white;
+    background-image: url(/photo_2022-06-05_13-14-26\ 1.png);
+}
+
+.hero img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.hero-list {
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 20px; 
+}
+
+.hero-list_item {
+    flex-basis: 30%; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+.hero-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(255, 213, 0, 0.749);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: rgba(255, 235, 59, 0.849);
+}
+.hero-list_btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(255, 213, 0, 0.749);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-list_btn:hover {
+    background-color: rgba(255, 235, 59, 0.849); /* Зміна кольору при наведенні */
+}
+/* Menu styles */
+.menu {
+    padding: 50px 0;
+    background-color: black;
+}
+
+.menu-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list_item {
+    text-align: center;
+    width: 23%;
+    color: white;
+}
+
+.menu-list_img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.menu-list_title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.menu-list_btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(255, 213, 0, 0.749); /* Жовтий колір кнопок */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-list_btn:hover {
+    background-color: rgba(255, 235, 59, 0.849); /* Зміна кольору при наведенні */
+}
+
+.quality {
+    padding: 50px 0;
+    background-color: black; 
+    color: white; 
+    text-align: center;
+}
+
+.quality-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.quality-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quality-list_item {
+    text-align: center;
+    width: 30%; 
+    margin-bottom: 20px;
+}
+
+.quality-ingredients {
+    margin-top: 10px;
+}
+
+.quality-ing_list {
+    list-style-type: none;
+}
+
+.quality-ing_item {
+    font-style: italic;
+}
+
+/* Why Us section styles */
+.why-us {
+    text-align: center; 
+    color: white; 
+    background-color: black;
+}
+
+.why-list {
+    display: flex; 
+    justify-content: center; 
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.why-list_item {
+    margin: 0 10px; 
+}
+
+/* Стилі для зображень */
+.why-list_item img {
+    max-width: 100px;
+    height: auto; 
+}
+
+/* Footer styles */
+.footer {
+    background-color: rgb(27, 26, 26);
+    color: white;
+    padding: 50px 0;
+}
+
+.footer-group {
+    display: inline-block; 
+    vertical-align: top; 
+    text-align: center; 
+    width: calc(33.00% - 5px); 
+    margin-right: 5px; 
+    box-sizing: border-box; 
+    margin-bottom: 250px; 
+    margin-top: 10px; 
+}
+
+.footer-group:last-child {
+    margin-right: 0;
+}
+
+.footer-group:nth-child(3) {
+    width: calc(33.00% - 5px); 
+}
+
+.group-title {
+    margin-top: 0; 
+    margin-bottom: 30px; 
+} 
