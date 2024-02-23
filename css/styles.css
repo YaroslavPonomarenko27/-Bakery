@@ -41,6 +41,10 @@ body {
     text-align: center;
     background-color: white (255,255,255);
     background-image: url(/img/photo_2022-06-05_13-14-26\ 1.png);
+    font-family: 'Italiana', sans-serif; 
+    font-size: 18px; 
+    font-weight: normal; 
+    color: white; 
 }
 
 .hero img {
@@ -63,7 +67,7 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     background-color: rgba(255, 213, 0, 0.749);
-    color: white; /* Білий колір тексту */
+    color: white; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -82,7 +86,7 @@ body {
     cursor: pointer;
 }
 .hero-list_btn:hover {
-    background-color: rgba(255, 235, 59, 0.849); /* Зміна кольору при наведенні */
+    background-color: rgba(255, 235, 59, 0.849); 
 }
 
 /* Menu styles */
@@ -99,19 +103,19 @@ body {
 
 .menu-list {
     display: flex;
-    justify-content: space-between; /* Рівномірно розподіляємо між елементами */
-    flex-wrap: nowrap; /* Забороняємо перенесення на новий рядок */
+    justify-content: space-between; 
+    flex-wrap: nowrap; 
 }
 
 .menu-list_item {
-    width: 30%; /* Задаємо ширину кожного елемента */
+    width: 30%; 
     margin-bottom: 20px;
 }
 
 .menu-list_img {
-    width: auto; /* Автоматична ширина малюнків */
-    height: 150px; /* Фіксована висота малюнків */
-    object-fit: cover; /* Заповнюємо контейнер, зберігаючи пропорції */
+    width: auto; 
+    height: 150px; 
+    object-fit: cover; 
 }
 
 .menu-list_title {
@@ -122,15 +126,15 @@ body {
 .menu-list_btn {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: rgba(255, 213, 0, 0.749); /* Жовтий колір кнопок */
-    color: white; /* Білий колір тексту */
+    background-color: rgba(255, 213, 0, 0.749); 
+    color: white; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .menu-list_btn:hover {
-    background-color: rgba(255, 235, 59, 0.849); /* Зміна кольору при наведенні */
+    background-color: rgba(255, 235, 59, 0.849); 
 }
 
 .quality {
