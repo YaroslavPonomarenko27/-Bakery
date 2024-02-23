@@ -40,7 +40,7 @@ body {
     padding: 50px 0;
     text-align: center;
     background-color: white;
-    background-image: url(/photo_2022-06-05_13-14-26\ 1.png);
+    background-image: url(/img/photo_2022-06-05_13-14-26\ 1.png);
 }
 
 .hero img {
@@ -97,21 +97,23 @@ body {
 }
 
 .menu-list {
-    list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Рівномірно розподіляємо між елементами */
+    flex-wrap: nowrap; /* Забороняємо перенесення на новий рядок */
 }
 
 .menu-list_item {
-    text-align: center;
-    width: 23%;
-    color: white;
+    width: 30%; /* Задаємо ширину кожного елемента */
+    margin-bottom: 20px;
 }
 
 .menu-list_img {
-    width: 100%;
-    margin-bottom: 10px;
+    width: auto; /* Автоматична ширина малюнків */
+    height: 150px; /* Фіксована висота малюнків */
+    object-fit: cover; /* Заповнюємо контейнер, зберігаючи пропорції */
 }
+
+
 
 .menu-list_title {
     font-size: 18px;
@@ -222,3 +224,9 @@ body {
     margin-top: 0; 
     margin-bottom: 30px; 
 } 
+
+/* Інші стилі */
+
+.rights-recieved {
+    text-align: center;
+}
