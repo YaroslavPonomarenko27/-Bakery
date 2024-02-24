@@ -47,26 +47,21 @@ body {
     color: white; 
 }
 
-.hero img {
-    max-width: 100%; 
-    height: auto; 
+.hero-headline, .hero-text{
+    max-width: 575px;
 }
 
-.hero-list {
-    display: flex; 
-    justify-content: space-around; 
-    margin-top: 20px; 
+.hero-headline{
+    font-weight: 200;
+    font-size: 70px;
+    margin-bottom: 22px;
 }
 
-.hero-list_item {
-    flex-basis: 30%; 
-    text-align: center;
-    margin-bottom: 20px;
-}
+
 .hero-button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: rgba(255, 213, 0, 0.749);
+    background-color:  #b47b48;
     color: white; 
     border: none;
     border-radius: 5px;
@@ -74,22 +69,129 @@ body {
 }
 
 .hero-button:hover {
-    background-color: rgba(255, 235, 59, 0.849);
+    background-color: rgba(236, 170, 18, 0.828);
+}
+
+.hero-heading,
+.hero-text {
+    text-align: left; 
+}
+
+.hero-button {
+    display: block; 
+    margin-top: 10px; 
+    text-align: left; 
+}
+
+.cards-list {
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 20px; 
+}
+
+.cards-list_item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 12px;
+    padding-bottom: 43px;
+    background-color: var(--main-bg);
+    display: block;
+    width: 310px;
+    height: 225px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.cards-list_h4 {
+    font-size: 16px; /* Зменшити розмір тексту за потребою */
+    margin-bottom: 5px;
+}
+
+.cards-link_text {
+    font-size: 18px; /* Зменшити розмір тексту за потребою */
+    margin-bottom: 10px;
+}
+
+.hero-list_btn {
+    font-size: 14px; /* Зменшити розмір тексту за потребою */
+    padding: 18px 16px; /* Зменшити відступи кнопки за потребою */
+}
+
+.cards-list_item:hover {
+    background-color:  #ebad51;
+}
+
+
+.cards-list_item{
+    display: block;
+    width: 310px;
+    height: 225px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.cards-list_item:first-child{
+    padding-top: 51px;
+    padding-left: 162px;
+    background-image: linear-gradient(66deg, #000 0%, rgba(0,0,0,0) 100%), url(/img/pngwing\ 1.png);
+}
+.cards-list_item:nth-child(2){
+    background-image: linear-gradient(66deg, #000 0%, rgba(0,0,0,0) 100%), url(/img/pngegg\ \(1\)\ 1.png);;
+    padding-top: 51px;
+    padding-left: 200px;
+}
+
+.cards-list_item:nth-child(2) .hero-heading,
+.cards-list_item:nth-child(2) .hero-text,
+.cards-list_item:nth-child(2) .hero-button {
+    margin-top: -10px; /* Змініть це значення від'ємне значення, щоб підняти елементи вище */
+}
+
+.cards-list_item:nth-child(3){
+    background-image: linear-gradient(66deg, #000 0%, rgba(0,0,0,0) 100%),url(/img/imgbin_blueberry-pie-blackberry-pie-rhubarb-pie-apple-pie-tart-png\ 1.png);;
+    padding-left: 185px;
+    padding-top: 27px;
+}
+.cards-list-headline{
+    text-align: center;
+    font-weight: 400;
+    font-size: 64px;
+    font-family: "Inter", sans-serif;
 }
 .hero-list_btn {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: rgba(255, 213, 0, 0.749);
+    background-color:  #b47b48;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
+
 .hero-list_btn:hover {
-    background-color: rgba(255, 235, 59, 0.849); 
+    background-color:  rgba(255, 230, 0, 0.592); 
 }
 
 /* Menu styles */
+.menu {
+    padding: 50px 0;
+    background-color: black;
+}
+
+.menu-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: nowrap; 
+}
+
 .menu {
     padding: 50px 0;
     background-color: black;
@@ -126,7 +228,7 @@ body {
 .menu-list_btn {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: rgba(255, 213, 0, 0.749); 
+    background-color: #b47b48; 
     color: white; 
     border: none;
     border-radius: 5px;
@@ -134,7 +236,7 @@ body {
 }
 
 .menu-list_btn:hover {
-    background-color: rgba(255, 235, 59, 0.849); 
+    background-color:rgba(236, 170, 18, 0.828); 
 }
 
 .quality {
@@ -153,13 +255,48 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    background-image: url(/img/bakery-bg-1.png);
+}
+
+.quality-list {
+    display: flex;
+    justify-content: space-around;
 }
 
 .quality-list_item {
-    text-align: center;
-    width: 30%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 20px;
     margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Фон карти з напівпрозорістю */
+    border-radius: 10px; /* Закруглені кути */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь */
 }
+
+.quality-list_img {
+    max-width: 100px; /* Максимальна ширина зображення */
+    height: auto; /* Автоматична висота зображення */
+    margin-bottom: 10px; /* Відступ між зображенням і текстом */
+    transform: rotate(-45deg); /* Поворот зображення на 45 градусів проти годинникової стрілки */
+}
+
+.quality-list_title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.quality-list_description {
+    font-size: 18px;
+    color: #555; /* Колір тексту */
+    transform: rotate(-45deg); /* Поворот тексту на 45 градусів проти годинникової стрілки */
+    text-align: center; /* Вирівнювання тексту по центру */
+}
+
+
+
 
 .quality-ingredients {
     margin-top: 10px;
@@ -233,3 +370,38 @@ body {
 .rights-recieved {
     text-align: center;
 }
+
+/* CSS стилі */
+.place {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.where {
+    flex-basis: 60%;
+    margin-bottom: 20px;
+}
+
+.where iframe {
+    width: 100%; /* Забезпечуємо повну ширину для карти */
+}
+
+.how, .when {
+    flex-basis: calc(40% - 10px); /* Задаємо ширину для блоків з відступом між ними */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.how-title, .when-title {
+    margin-bottom: 10px;
+    font-size: 20px; /* Задаємо більший розмір тексту для заголовків */
+}
+
+.how-tiktok, .how-inst, .when-time {
+    margin-bottom: 5px;
+    font-size: 18px; /* Задаємо більший розмір тексту для інших елементів */
+}
+
