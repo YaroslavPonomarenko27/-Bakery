@@ -106,18 +106,18 @@ body {
 }
 
 .cards-list_h4 {
-    font-size: 16px; /* Зменшити розмір тексту за потребою */
+    font-size: 16px; 
     margin-bottom: 5px;
 }
 
 .cards-link_text {
-    font-size: 18px; /* Зменшити розмір тексту за потребою */
+    font-size: 18px; 
     margin-bottom: 10px;
 }
 
 .hero-list_btn {
-    font-size: 14px; /* Зменшити розмір тексту за потребою */
-    padding: 18px 16px; /* Зменшити відступи кнопки за потребою */
+    font-size: 14px; 
+    padding: 18px 16px; 
 }
 
 .cards-list_item:hover {
@@ -271,16 +271,16 @@ body {
     width: 30%;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.5); /* Фон карти з напівпрозорістю */
-    border-radius: 10px; /* Закруглені кути */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь */
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .quality-list_img {
-    max-width: 100px; /* Максимальна ширина зображення */
-    height: auto; /* Автоматична висота зображення */
-    margin-bottom: 10px; /* Відступ між зображенням і текстом */
-    transform: rotate(-45deg); /* Поворот зображення на 45 градусів проти годинникової стрілки */
+    max-width: 100px; 
+    height: auto; 
+    margin-bottom: 10px; 
+    transform: rotate(-45deg); 
 }
 
 .quality-list_title {
@@ -290,9 +290,9 @@ body {
 
 .quality-list_description {
     font-size: 18px;
-    color: #555; /* Колір тексту */
-    transform: rotate(-45deg); /* Поворот тексту на 45 градусів проти годинникової стрілки */
-    text-align: center; /* Вирівнювання тексту по центру */
+    color: #555; 
+    transform: rotate(-45deg); 
+    text-align: center; 
 }
 
 
@@ -385,11 +385,11 @@ body {
 }
 
 .where iframe {
-    width: 100%; /* Забезпечуємо повну ширину для карти */
+    width: 100%; 
 }
 
 .how, .when {
-    flex-basis: calc(40% - 10px); /* Задаємо ширину для блоків з відступом між ними */
+    flex-basis: calc(40% - 10px); 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -397,11 +397,11 @@ body {
 
 .how-title, .when-title {
     margin-bottom: 10px;
-    font-size: 20px; /* Задаємо більший розмір тексту для заголовків */
+    font-size: 20px; 
 }
 
 .how-tiktok, .how-inst, .when-time {
     margin-bottom: 5px;
-    font-size: 18px; /* Задаємо більший розмір тексту для інших елементів */
+    font-size: 18px; 
 }
 
